@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+__global__ void kernel(void ){
+
+}
+int main(void){
+	kernel<<<1,1>>>();
+	cout << "benboba" << endl;
+	return 0;
+}
