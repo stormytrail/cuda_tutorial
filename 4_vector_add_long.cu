@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define N  20
+#define N  23
 
 __global__ void add( int *a, int *b, int *c ) {
 	int block_index = blockIdx.x + blockIdx.y * gridDim.x;
